@@ -1,0 +1,1833 @@
+Trace file /opt/oracle/diag/rdbms/orcl02/orcl02/trace/orcl02_vktm_20222.trc
+Oracle Database 11g Enterprise Edition Release 11.2.0.2.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+ORACLE_HOME = /opt/oracle/product/11.2.0/db_1
+System name:	Linux
+Node name:	MY-DB-SERVER
+Release:	2.6.18-308.4.1.el5
+Version:	#1 SMP Wed Mar 28 01:54:56 EDT 2012
+Machine:	x86_64
+VM name:	VMWare Version: 6
+Instance name: orcl02
+Redo thread mounted by this instance: 0 <none>
+Oracle process number: 4
+Unix process pid: 20222, image: oracle@MY-DB-SERVER (VKTM)
+
+
+*** 2017-03-11 14:50:57.577
+*** SESSION ID:(1.1) 2017-03-11 14:50:57.577
+*** CLIENT ID:() 2017-03-11 14:50:57.577
+*** SERVICE NAME:() 2017-03-11 14:50:57.577
+*** MODULE NAME:() 2017-03-11 14:50:57.577
+*** ACTION NAME:() 2017-03-11 14:50:57.577
+ 
+kstmmainvktm: succeeded in setting elevated priority
+highres_enabled
+
+*** 2017-03-11 14:50:57.592
+VKTM running at (1)millisec precision with DBRM quantum (100)ms
+[Start] HighResTick = 1489261857592782
+kstmrmtickcnt = 0 : ksudbrmseccnt[0] = 1489261857
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1489265371777593
+
+*** 2017-03-11 15:49:30.617
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1489265371779654 drift: 2061
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1489265371
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1489265372 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1081992)usec at (1489275715070712) whereas (1000000) is allowed
+
+*** 2017-03-11 18:42:52.855
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1082776)usec at (1489275773764015) whereas (1000000) is allowed
+
+*** 2017-03-11 18:42:53.670
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1489275773
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1489275774 drift: 1
+
+*** 2017-03-11 18:43:13.049
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1896159)usec at (1489275794211719) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1489278188667547
+
+*** 2017-03-11 19:23:06.474
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1489278188669606 drift: 2059
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1489278187
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1489278188 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1849993)usec at (1489295586248452) whereas (1000000) is allowed
+
+*** 2017-03-12 00:18:15.236
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2679456)usec at (1489295897432089) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1489297256510751
+
+*** 2017-03-12 00:40:54.058
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1489297256513788 drift: 3037
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1489297254
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1489297255 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1153304)usec at (1489369322023928) whereas (1000000) is allowed
+
+*** 2017-03-12 21:44:42.751
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2065752)usec at (1489369485206248) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1489373287551912
+
+*** 2017-03-12 22:48:04.105
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1489373287554946 drift: 3034
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1489373285
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1489373286 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1237007)usec at (1489383423188811) whereas (1000000) is allowed
+
+*** 2017-03-13 01:39:12.249
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (3134529)usec at (1489383555524881) whereas (1000000) is allowed
+
+*** 2017-03-13 01:39:36.311
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2645421)usec at (1489383579760350) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1008618)usec at (1489384319032443) whereas (1000000) is allowed
+
+*** 2017-03-13 01:54:33.056
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (4488613)usec at (1489384476329530) whereas (1000000) is allowed
+
+*** 2017-03-13 01:54:33.950
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1489384473
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1489384474 drift: 1
+
+*** 2017-03-13 01:54:38.546
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1077184)usec at (1489384481996075) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1819823)usec at (1489385522072033) whereas (1000000) is allowed
+
+*** 2017-03-13 02:14:07.837
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1009111)usec at (1489385651286484) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1489386383270712
+
+*** 2017-03-13 02:26:18.784
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1489386383273767 drift: 3055
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1489386379
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1489386380 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (4970969)usec at (1489397626309468) whereas (1000000) is allowed
+
+*** 2017-03-13 05:34:06.569
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2054481)usec at (1489397651058667) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1489402043317440
+
+*** 2017-03-13 06:47:17.698
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1489402043319460 drift: 2020
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1489402037
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1489402038 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1129507)usec at (1489437137844161) whereas (1000000) is allowed
+
+*** 2017-03-13 16:34:27.051
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2319810)usec at (1489437272552907) whereas (1000000) is allowed
+
+*** 2017-03-13 16:34:52.432
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2263557)usec at (1489437298051374) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1489441105576365
+
+*** 2017-03-13 17:38:18.933
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1489441105579394 drift: 3029
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1489441098
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1489441099 drift: 1
+
+*** 2017-03-13 17:38:59.065
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (3021722)usec at (1489441145533414) whereas (1000000) is allowed
+
+*** 2017-03-13 17:38:59.934
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1489441139
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1489441140 drift: 1
+
+*** 2017-03-13 17:39:11.795
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2034533)usec at (1489441158441806) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1489442570599982
+
+*** 2017-03-13 18:02:42.943
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1489442570602010 drift: 2028
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1489442563
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1489442564 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1649236)usec at (1489507324058528) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1050314)usec at (1489508228495344) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1489568676
+
+*** 2017-03-15 05:04:37.994
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1489568677 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1009727)usec at (1489569461433663) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1225170)usec at (1489577841286611) whereas (1000000) is allowed
+
+*** 2017-03-15 07:37:14.641
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1012945)usec at (1489577842299556) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1489577834
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1489577835 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2272164)usec at (1489577929396681) whereas (1000000) is allowed
+
+*** 2017-03-15 07:38:42.788
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1489577922
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1489577923 drift: 1
+
+*** 2017-03-15 07:39:06.492
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2070603)usec at (1489577954151603) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1225444)usec at (1489581146893705) whereas (1000000) is allowed
+
+*** 2017-03-15 08:32:20.358
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1120327)usec at (1489581148014032) whereas (1000000) is allowed
+
+*** 2017-03-15 08:34:24.470
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2215292)usec at (1489581271915552) whereas (1000000) is allowed
+
+*** 2017-03-15 08:34:26.475
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1044296)usec at (1489581274134611) whereas (1000000) is allowed
+
+*** 2017-03-15 08:34:36.840
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1704566)usec at (1489581284498954) whereas (1000000) is allowed
+
+*** 2017-03-15 08:36:34.676
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1489581403366560
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1489581403369584 drift: 3024
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1489581395
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1489581396 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1212106)usec at (1489613326405071) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1629634)usec at (1489614745282491) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2522274)usec at (1489614809643817) whereas (1000000) is allowed
+
+*** 2017-03-15 17:53:22.097
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1489614801
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1489614802 drift: 1
+
+*** 2017-03-15 17:53:43.565
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1965593)usec at (1489614832255394) whereas (1000000) is allowed
+
+*** 2017-03-15 17:53:44.566
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1489614824
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1489614825 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1489617259318879
+
+*** 2017-03-15 18:34:09.674
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1489617259320897 drift: 2018
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1011870)usec at (1489618344369562) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2296707)usec at (1489618439494945) whereas (1000000) is allowed
+
+*** 2017-03-15 18:53:50.901
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1489618430
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1489618431 drift: 1
+
+*** 2017-03-15 18:54:13.885
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2028557)usec at (1489618463531300) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1489621776322670
+
+*** 2017-03-15 19:49:25.623
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1489621776325722 drift: 3052
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1489621765
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1489621766 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1025288)usec at (1489636046664375) whereas (1000000) is allowed
+
+*** 2017-03-15 23:47:17.024
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1062173)usec at (1489636047726548) whereas (1000000) is allowed
+
+*** 2017-03-15 23:48:15.302
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1176382)usec at (1489636105673617) whereas (1000000) is allowed
+
+*** 2017-03-15 23:48:24.380
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2083008)usec at (1489636115083608) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1489638727381848
+
+*** 2017-03-16 00:31:55.670
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1489638727384744 drift: 2896
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1489638716
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1489638717 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1684293)usec at (1489659754696443) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1366783)usec at (1489659874034251) whereas (1000000) is allowed
+
+*** 2017-03-16 06:24:23.414
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1072908)usec at (1489659875107159) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1489659863
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1489659864 drift: 1
+
+*** 2017-03-16 06:24:41.190
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2200164)usec at (1489659892904683) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1489663845577727
+
+*** 2017-03-16 07:30:32.876
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1489663845580757 drift: 3030
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1489663833
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1489663834 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2597011)usec at (1489749588524892) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (5044893)usec at (1489990604114439) whereas (1000000) is allowed
+
+*** 2017-03-20 02:16:33.680
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2267143)usec at (1489990606381582) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1489990593
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1489990594 drift: 1
+
+*** 2017-03-20 02:16:48.080
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2369379)usec at (1489990620784810) whereas (1000000) is allowed
+
+*** 2017-03-20 02:22:41.248
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1092491)usec at (1489990973947908) whereas (1000000) is allowed
+
+*** 2017-03-20 02:22:42.757
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1249982)usec at (1489990975453604) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2334477)usec at (1489991175116191) whereas (1000000) is allowed
+
+*** 2017-03-20 02:26:03.546
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1126360)usec at (1489991176242551) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1489991163
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1489991164 drift: 1
+
+*** 2017-03-20 02:26:18.122
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1750583)usec at (1489991190825852) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1489995648660922
+
+*** 2017-03-20 03:40:34.890
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1489995648663972 drift: 3050
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1489995635
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1489995636 drift: 1
+
+*** 2017-03-20 03:42:43.433
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2032688)usec at (1489995777199313) whereas (1000000) is allowed
+
+*** 2017-03-20 03:44:03.657
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1161783)usec at (1489995857168336) whereas (1000000) is allowed
+
+*** 2017-03-20 03:44:04.452
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1053393)usec at (1489995858221729) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1489995844
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1489995845 drift: 1
+
+*** 2017-03-20 03:44:07.334
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1008957)usec at (1489995861103617) whereas (1000000) is allowed
+
+*** 2017-03-20 03:44:17.264
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1991676)usec at (1489995871038435) whereas (1000000) is allowed
+
+*** 2017-03-20 03:44:30.365
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (13100652)usec at (1489995884139087) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1489995870
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1489995871 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1489997635631741
+
+*** 2017-03-20 04:13:40.804
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1489997635634649 drift: 2908
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1489997620
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1489997621 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1490005319
+
+*** 2017-03-20 06:22:00.980
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1490005320 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1474486)usec at (1490176388822840) whereas (1000000) is allowed
+
+*** 2017-03-22 05:52:54.995
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1490176374
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1490176375 drift: 1
+
+*** 2017-03-22 05:54:19.083
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1467697)usec at (1490176473701720) whereas (1000000) is allowed
+
+*** 2017-03-22 05:54:20.122
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1490176459
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1490176460 drift: 1
+
+*** 2017-03-22 05:54:44.227
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2539793)usec at (1490176499058031) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1284647)usec at (1490176991185577) whereas (1000000) is allowed
+
+*** 2017-03-22 06:05:03.999
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2221245)usec at (1490177118829507) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1490181626380359
+
+*** 2017-03-22 07:20:10.514
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1490181626383402 drift: 3043
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1490181611
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1490181612 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1341721)usec at (1490187190733853) whereas (1000000) is allowed
+
+*** 2017-03-22 08:52:56.114
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1126831)usec at (1490187191981025) whereas (1000000) is allowed
+
+*** 2017-03-22 08:54:34.855
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1086594)usec at (1490187290722774) whereas (1000000) is allowed
+
+*** 2017-03-22 08:54:36.806
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1903558)usec at (1490187292674956) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1490190167279344
+
+*** 2017-03-22 09:42:30.415
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1490190167281215 drift: 1871
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1490190151
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1490190152 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1311120)usec at (1490215392903220) whereas (1000000) is allowed
+
+*** 2017-03-22 16:44:14.236
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2556908)usec at (1490215470881074) whereas (1000000) is allowed
+
+*** 2017-03-22 16:44:37.675
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2095944)usec at (1490215494541468) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1490218006364665
+
+*** 2017-03-22 17:26:28.442
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1490218006367694 drift: 3029
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1490217989
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1490217990 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2437184)usec at (1490462617922055) whereas (1000000) is allowed
+
+*** 2017-03-25 13:23:21.000
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1490462600
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1490462602 drift: 2
+
+*** 2017-03-25 13:24:30.564
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2651799)usec at (1490462688292528) whereas (1000000) is allowed
+
+*** 2017-03-25 13:24:31.419
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1490462671
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1490462672 drift: 1
+
+*** 2017-03-25 13:24:39.034
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2044373)usec at (1490462696959613) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1172258)usec at (1490463221178766) whereas (1000000) is allowed
+
+*** 2017-03-25 13:34:19.206
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2981638)usec at (1490463276907750) whereas (1000000) is allowed
+
+*** 2017-03-25 13:34:20.060
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1490463259
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1033720)usec at (1490463279346413) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1490463261 drift: 2
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1087701)usec at (1490472523113648) whereas (1000000) is allowed
+
+*** 2017-03-25 16:08:26.272
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1081785)usec at (1490472524195433) whereas (1000000) is allowed
+
+*** 2017-03-25 16:09:44.418
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1113531)usec at (1490472602343576) whereas (1000000) is allowed
+
+*** 2017-03-25 16:09:48.037
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1326357)usec at (1490472605962395) whereas (1000000) is allowed
+
+*** 2017-03-25 16:10:29.663
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2797810)usec at (1490472647355587) whereas (1000000) is allowed
+
+*** 2017-03-25 16:10:51.750
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2001574)usec at (1490472669675391) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1599461)usec at (1490474019264405) whereas (1000000) is allowed
+
+*** 2017-03-25 16:34:17.493
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2864223)usec at (1490474075213562) whereas (1000000) is allowed
+
+*** 2017-03-25 16:34:18.904
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1616000)usec at (1490474076829562) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1490474900379444
+
+*** 2017-03-25 16:48:02.267
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1490474900382367 drift: 2923
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1340696)usec at (1490486023562268) whereas (1000000) is allowed
+
+*** 2017-03-25 19:53:26.508
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1056958)usec at (1490486024619226) whereas (1000000) is allowed
+
+*** 2017-03-25 19:54:32.715
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (4566076)usec at (1490486090724382) whereas (1000000) is allowed
+
+*** 2017-03-25 19:54:33.646
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1490486073
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1041265)usec at (1490486093032348) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1490486074 drift: 1
+
+*** 2017-03-25 19:54:39.033
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1827304)usec at (1490486097148048) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1490490548197261
+
+*** 2017-03-25 21:08:49.081
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1490490548200273 drift: 3012
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1490490529
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1490490530 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1076411)usec at (1490533125725532) whereas (1000000) is allowed
+
+*** 2017-03-26 08:59:36.563
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1919043)usec at (1490533195354967) whereas (1000000) is allowed
+
+*** 2017-03-26 08:59:37.271
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1035394)usec at (1490533196390361) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1490533177
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1490533178 drift: 1
+
+*** 2017-03-26 08:59:49.698
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1916856)usec at (1490533208817472) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1490535834110027
+
+*** 2017-03-26 09:43:33.999
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1490535834112986 drift: 2959
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1490535814
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1490535815 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1136669)usec at (1490578593655009) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1119564)usec at (1490614697475882) whereas (1000000) is allowed
+
+*** 2017-03-27 07:38:31.595
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1075012)usec at (1490614731708876) whereas (1000000) is allowed
+
+*** 2017-03-27 07:39:51.698
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (4753978)usec at (1490614811656859) whereas (1000000) is allowed
+
+*** 2017-03-27 07:39:56.887
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2080505)usec at (1490614817001052) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1490618648145694
+
+*** 2017-03-27 08:43:46.982
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1490618648149372 drift: 3678
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1490618627
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1490618628 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1337516)usec at (1490700203724642) whereas (1000000) is allowed
+
+*** 2017-03-28 07:23:03.696
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1137280)usec at (1490700204861922) whereas (1000000) is allowed
+
+*** 2017-03-28 07:24:12.290
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1156576)usec at (1490700273187055) whereas (1000000) is allowed
+
+*** 2017-03-28 07:24:39.569
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2075667)usec at (1490700300733853) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1490702744214710
+
+*** 2017-03-28 08:05:22.038
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1490702744217570 drift: 2860
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1490702723
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1490702724 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1249060)usec at (1490851115156795) whereas (1000000) is allowed
+
+*** 2017-03-30 01:18:13.990
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1490851093
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1490851094 drift: 1
+
+*** 2017-03-30 01:19:21.062
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (4433319)usec at (1490851182984448) whereas (1000000) is allowed
+
+*** 2017-03-30 01:19:46.063
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1894339)usec at (1490851208242234) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1490855251102073
+
+*** 2017-03-30 02:27:07.901
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1490855251104094 drift: 2021
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1490855228
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1490855229 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1491334983
+
+*** 2017-04-04 15:43:05.000
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1491334985 drift: 2
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1598038)usec at (1491363074704296) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1199480)usec at (1491363863973316) whereas (1000000) is allowed
+
+*** 2017-04-04 23:44:59.721
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (3833446)usec at (1491363922794142) whereas (1000000) is allowed
+
+*** 2017-04-04 23:45:01.737
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2145181)usec at (1491363924939323) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1491363901
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1491363902 drift: 1
+
+*** 2017-04-04 23:45:19.726
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2045026)usec at (1491363942928976) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1153186)usec at (1491365669818716) whereas (1000000) is allowed
+
+*** 2017-04-05 00:16:12.405
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (5230294)usec at (1491365795424866) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (5361491)usec at (1491366639379426) whereas (1000000) is allowed
+
+*** 2017-04-05 00:30:38.147
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1848184)usec at (1491366661350415) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1004197)usec at (1491368966729739) whereas (1000000) is allowed
+
+*** 2017-04-05 01:11:25.068
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (5473223)usec at (1491369108129751) whereas (1000000) is allowed
+
+*** 2017-04-05 01:11:25.937
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1491369085
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1491369086 drift: 1
+
+*** 2017-04-05 01:11:49.674
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1609559)usec at (1491369132877339) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1491371460589091
+
+*** 2017-04-05 01:50:36.360
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1491371460592121 drift: 3030
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1491371436
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1491371437 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2508152)usec at (1491443735791377) whereas (1000000) is allowed
+
+*** 2017-04-05 21:55:12.560
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1001102)usec at (1491443736792479) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1491443712
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1491443713 drift: 1
+
+*** 2017-04-05 21:55:25.520
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2090911)usec at (1491443749752151) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1491446422650413
+
+*** 2017-04-05 22:39:57.369
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1491446422652428 drift: 2015
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1491446398
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1491446399 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1048682)usec at (1491455655067397) whereas (1000000) is allowed
+
+*** 2017-04-06 01:13:51.371
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1587600)usec at (1491455656654997) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1491455631
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1491455632 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (3788749)usec at (1491579087351570) whereas (1000000) is allowed
+
+*** 2017-04-07 11:31:32.507
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2850745)usec at (1491579117790375) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1491582662491663
+
+*** 2017-04-07 12:30:36.267
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1491582662493687 drift: 2024
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1491582636
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1491582637 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1235267)usec at (1491648888549186) whereas (1000000) is allowed
+
+*** 2017-04-08 06:54:23.433
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1110318)usec at (1491648889659504) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1491648863
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1491648864 drift: 1
+
+*** 2017-04-08 06:55:29.226
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2986109)usec at (1491648955270620) whereas (1000000) is allowed
+
+*** 2017-04-08 06:55:45.078
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2021998)usec at (1491648971305033) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1343740)usec at (1491652185786067) whereas (1000000) is allowed
+
+*** 2017-04-08 07:50:35.073
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (3216349)usec at (1491652261067612) whereas (1000000) is allowed
+
+*** 2017-04-08 07:50:35.901
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1491652235
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1491652236 drift: 1
+
+*** 2017-04-08 07:55:54.135
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1491652581425656
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1491652581428697 drift: 3041
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1491652554
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1491652555 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1103665)usec at (1491764090211370) whereas (1000000) is allowed
+
+*** 2017-04-09 14:55:33.546
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (3150061)usec at (1491764160740871) whereas (1000000) is allowed
+
+*** 2017-04-09 14:55:45.417
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2345013)usec at (1491764172707777) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1491767243460812
+
+*** 2017-04-09 15:46:55.103
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1491767243464460 drift: 3648
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1491767215
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1491767216 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1538890)usec at (1491768295423217) whereas (1000000) is allowed
+
+*** 2017-04-09 16:05:42.458
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1934615)usec at (1491768370815955) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1491769933375590
+
+*** 2017-04-09 16:31:43.994
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1491769933377609 drift: 2019
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1491769904
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1491769905 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (4995216)usec at (1491775602042088) whereas (1000000) is allowed
+
+*** 2017-04-09 18:06:14.062
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1400949)usec at (1491775603443037) whereas (1000000) is allowed
+
+*** 2017-04-09 18:06:25.569
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (3305383)usec at (1491775614952484) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1491776391665697
+
+*** 2017-04-09 18:19:21.262
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1491776391668723 drift: 3026
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1491776361
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1491776362 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2020673)usec at (1491787240617246) whereas (1000000) is allowed
+
+*** 2017-04-09 21:20:48.131
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1065181)usec at (1491787278535693) whereas (1000000) is allowed
+
+*** 2017-04-09 21:21:25.068
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1177924)usec at (1491787315474293) whereas (1000000) is allowed
+
+*** 2017-04-09 21:21:35.220
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2536286)usec at (1491787325466790) whereas (1000000) is allowed
+
+*** 2017-04-09 21:21:55.308
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1818269)usec at (1491787345714753) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1491789914474040
+
+*** 2017-04-09 22:04:43.016
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1491789914475853 drift: 1813
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1491789883
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1491789884 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2640677)usec at (1491876087691694) whereas (1000000) is allowed
+
+*** 2017-04-10 22:00:57.890
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1647192)usec at (1491876089338886) whereas (1000000) is allowed
+
+*** 2017-04-10 22:00:58.973
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1491876058
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1491876059 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (3529250)usec at (1491879420456856) whereas (1000000) is allowed
+
+*** 2017-04-10 22:56:44.118
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1766897)usec at (1491879435578163) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1491883272231745
+
+*** 2017-04-11 00:00:39.804
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1491883272234576 drift: 2831
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1491883240
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1491883241 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2232448)usec at (1492015526913614) whereas (1000000) is allowed
+
+*** 2017-04-12 12:45:56.798
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (4700677)usec at (1492015589075017) whereas (1000000) is allowed
+
+*** 2017-04-12 12:45:58.320
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1203743)usec at (1492015590750371) whereas (1000000) is allowed
+
+*** 2017-04-12 12:46:19.545
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1933093)usec at (1492015611974982) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1492019339151204
+
+*** 2017-04-12 13:48:25.763
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1492019339154233 drift: 3029
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1492019305
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1492019306 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1581169)usec at (1492079433640289) whereas (1000000) is allowed
+
+*** 2017-04-13 06:30:01.316
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1065071)usec at (1492079434705360) whereas (1000000) is allowed
+
+*** 2017-04-13 06:31:16.121
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1886245)usec at (1492079509512114) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1844474)usec at (1492082097223634) whereas (1000000) is allowed
+
+*** 2017-04-13 07:14:24.995
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1162908)usec at (1492082098386542) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1492083425030575
+
+*** 2017-04-13 07:36:30.620
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1492083425033293 drift: 2718
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1492083391
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1492083392 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2215276)usec at (1492168418012773) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1026626)usec at (1492176034023418) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (5820004)usec at (1492176176852710) whereas (1000000) is allowed
+
+*** 2017-04-14 09:22:35.125
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1993627)usec at (1492176189535599) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1492178475016347
+
+*** 2017-04-14 10:00:39.591
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1492178475018376 drift: 2029
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1492178439
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1492178440 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1748779)usec at (1492392951105336) whereas (1000000) is allowed
+
+*** 2017-04-16 21:36:45.663
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (4253828)usec at (1492393040997028) whereas (1000000) is allowed
+
+*** 2017-04-16 21:37:08.926
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1912486)usec at (1492393064353918) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1492397144922559
+
+*** 2017-04-16 22:45:08.571
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1492397144934671 drift: 12112
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1492397109
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1492397110 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1061172)usec at (1492406449469399) whereas (1000000) is allowed
+
+*** 2017-04-17 01:20:14.128
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1021135)usec at (1492406450490534) whereas (1000000) is allowed
+
+*** 2017-04-17 01:22:14.389
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2799993)usec at (1492406570640844) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1851605)usec at (1492406586751433) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1492409104760865
+
+*** 2017-04-17 02:04:27.504
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1492409104763919 drift: 3054
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1492409068
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1492409069 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2132649)usec at (1492462351847612) whereas (1000000) is allowed
+
+*** 2017-04-17 16:51:56.453
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1863269)usec at (1492462353710881) whereas (1000000) is allowed
+
+*** 2017-04-17 16:52:16.562
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1737096)usec at (1492462373822050) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1492465750492386
+
+*** 2017-04-17 17:48:32.263
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1492465750494405 drift: 2019
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1492465713
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1492465714 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1413112)usec at (1492515059316499) whereas (1000000) is allowed
+
+*** 2017-04-18 07:30:22.295
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1118802)usec at (1492515060524815) whereas (1000000) is allowed
+
+*** 2017-04-18 07:33:45.801
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (7338365)usec at (1492515263847621) whereas (1000000) is allowed
+
+*** 2017-04-18 07:34:08.835
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1644770)usec at (1492515287066497) whereas (1000000) is allowed
+
+*** 2017-04-18 07:35:22.496
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1405982)usec at (1492515360683052) whereas (1000000) is allowed
+
+*** 2017-04-18 07:37:01.009
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (3463379)usec at (1492515459055831) whereas (1000000) is allowed
+
+*** 2017-04-18 07:37:01.867
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1492515421
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1492515422 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1492518487131979
+
+*** 2017-04-18 08:27:28.760
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1492518487134005 drift: 2026
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1606932)usec at (1492520280015234) whereas (1000000) is allowed
+
+*** 2017-04-18 08:57:22.959
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1296443)usec at (1492520281311677) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1492520242
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1492520243 drift: 1
+
+*** 2017-04-18 08:57:48.255
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1771948)usec at (1492520306628520) whereas (1000000) is allowed
+
+*** 2017-04-18 09:05:22.128
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1122506)usec at (1492520760496850) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (5402229)usec at (1492520966670715) whereas (1000000) is allowed
+
+*** 2017-04-18 09:09:19.864
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2683552)usec at (1492520998237641) whereas (1000000) is allowed
+
+*** 2017-04-18 09:20:27.075
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1519669)usec at (1492521665444374) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (3342811)usec at (1492521839198381) whereas (1000000) is allowed
+
+*** 2017-04-18 09:23:22.002
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1492521801
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1492521802 drift: 1
+
+*** 2017-04-18 09:23:45.260
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1081089)usec at (1492521863633647) whereas (1000000) is allowed
+
+*** 2017-04-18 09:30:22.963
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1264461)usec at (1492522261331032) whereas (1000000) is allowed
+
+*** 2017-04-18 09:33:11.719
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (3114801)usec at (1492522429878466) whereas (1000000) is allowed
+
+*** 2017-04-18 09:33:26.274
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (14769406)usec at (1492522444647872) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1492522406
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1492522407 drift: 1
+
+*** 2017-04-18 09:35:22.473
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1075754)usec at (1492522560842486) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (3047722)usec at (1492522725337892) whereas (1000000) is allowed
+
+*** 2017-04-18 09:38:08.042
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1492522687
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1492522689 drift: 2
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1034371)usec at (1492559461895395) whereas (1000000) is allowed
+
+*** 2017-04-18 19:50:24.686
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1156562)usec at (1492559463051957) whereas (1000000) is allowed
+
+*** 2017-04-18 19:52:01.094
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (3319820)usec at (1492559559337313) whereas (1000000) is allowed
+
+*** 2017-04-18 19:52:09.281
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1809364)usec at (1492559567654915) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1492561692529025
+
+*** 2017-04-18 20:27:33.230
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1492561692531042 drift: 2017
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1492561653
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1492561654 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1006724)usec at (1492566664257885) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (3741244)usec at (1492566835491461) whereas (1000000) is allowed
+
+*** 2017-04-18 21:53:28.783
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1812687)usec at (1492566848084846) whereas (1000000) is allowed
+
+*** 2017-04-18 22:03:33.097
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1492567453326549
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1492567453328562 drift: 2013
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1492567413
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1492567414 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1206784)usec at (1492568469359535) whereas (1000000) is allowed
+
+*** 2017-04-18 22:20:30.187
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1055389)usec at (1492568470414924) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1492568430
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1492568431 drift: 1
+
+*** 2017-04-18 22:23:07.172
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1032689)usec at (1492568627401146) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2192027)usec at (1492568671648201) whereas (1000000) is allowed
+
+*** 2017-04-18 22:24:08.216
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1876390)usec at (1492568688443361) whereas (1000000) is allowed
+
+*** 2017-04-18 22:24:14.760
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (6546034)usec at (1492568694989395) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1492568654
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1492568655 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1492569830192902
+
+*** 2017-04-18 22:43:09.046
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1492569830195933 drift: 3031
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1492569789
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1492569790 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2876165)usec at (1492570874097940) whereas (1000000) is allowed
+
+*** 2017-04-18 23:02:21.507
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2381893)usec at (1492570982435113) whereas (1000000) is allowed
+
+*** 2017-04-18 23:02:26.616
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2002538)usec at (1492570987765793) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1492572493189926
+
+*** 2017-04-18 23:27:31.116
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1492572493192949 drift: 3023
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1127858)usec at (1492613173070727) whereas (1000000) is allowed
+
+*** 2017-04-19 10:48:45.509
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (6556261)usec at (1492613367460044) whereas (1000000) is allowed
+
+*** 2017-04-19 10:49:02.399
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1732103)usec at (1492613384476178) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1026709)usec at (1492614297395726) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1492617247917742
+
+*** 2017-04-19 11:53:24.886
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1492617247920810 drift: 3068
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1492617205
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1492617206 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1137102)usec at (1492618874647022) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (3580115)usec at (1492619089166017) whereas (1000000) is allowed
+
+*** 2017-04-19 12:24:26.067
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1917904)usec at (1492619109102464) whereas (1000000) is allowed
+
+*** 2017-04-19 12:30:33.616
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1237587)usec at (1492619476062868) whereas (1000000) is allowed
+
+*** 2017-04-19 12:32:39.162
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1008100)usec at (1492619602196842) whereas (1000000) is allowed
+
+*** 2017-04-19 12:32:40.824
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1174515)usec at (1492619603858399) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1492620324999194
+
+*** 2017-04-19 12:44:41.034
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1492620325002275 drift: 3081
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1492620281
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1492620282 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1000537)usec at (1492633572249185) whereas (1000000) is allowed
+
+*** 2017-04-19 16:28:44.700
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1828623)usec at (1492633768668088) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1492637388825395
+
+*** 2017-04-19 17:29:03.905
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1492637388828496 drift: 3101
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1492637344
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1492637345 drift: 1
+
+*** 2017-04-19 17:37:50.117
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (6322676)usec at (1492637914958078) whereas (1000000) is allowed
+
+*** 2017-04-19 17:38:08.426
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1689561)usec at (1492637933346970) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1492639515506363
+
+*** 2017-04-19 18:04:29.685
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1492639515509402 drift: 3039
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1492639470
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1492639471 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2973044)usec at (1492653735930632) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2249309)usec at (1492688369775555) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1932277)usec at (1492688481181055) whereas (1000000) is allowed
+
+*** 2017-04-20 07:42:40.576
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1896118)usec at (1492688606400352) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1492690715392780
+
+*** 2017-04-20 08:17:48.614
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1492690715394693 drift: 1913
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1492690669
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1492690670 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1181907)usec at (1492718484505515) whereas (1000000) is allowed
+
+*** 2017-04-20 16:04:46.233
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1711193)usec at (1492718733013169) whereas (1000000) is allowed
+
+*** 2017-04-20 16:05:35.920
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1012993)usec at (1492718782698714) whereas (1000000) is allowed
+
+*** 2017-04-20 16:06:54.747
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2733399)usec at (1492718861329541) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1627141)usec at (1492740984085508) whereas (1000000) is allowed
+
+*** 2017-04-20 22:15:38.653
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1345825)usec at (1492740985431333) whereas (1000000) is allowed
+
+*** 2017-04-20 22:17:15.443
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2663650)usec at (1492741081745862) whereas (1000000) is allowed
+
+*** 2017-04-20 22:17:16.000
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1035235)usec at (1492741082781097) whereas (1000000) is allowed
+
+*** 2017-04-20 22:17:39.199
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1703060)usec at (1492741105979831) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1492743357770949
+
+*** 2017-04-20 22:55:10.103
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1492743357773799 drift: 2850
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1492743310
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1492743311 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1746095)usec at (1492747581169658) whereas (1000000) is allowed
+
+*** 2017-04-21 00:07:40.894
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (3371588)usec at (1492747708374539) whereas (1000000) is allowed
+
+*** 2017-04-21 00:07:41.748
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1492747661
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1492747663 drift: 2
+
+*** 2017-04-21 00:07:57.023
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1748970)usec at (1492747724693097) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1081179)usec at (1492748482794882) whereas (1000000) is allowed
+
+*** 2017-04-21 00:21:51.404
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2620568)usec at (1492748558705675) whereas (1000000) is allowed
+
+*** 2017-04-21 00:21:52.065
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1029889)usec at (1492748559735564) whereas (1000000) is allowed
+
+*** 2017-04-21 00:22:00.484
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1013127)usec at (1492748568154769) whereas (1000000) is allowed
+
+*** 2017-04-21 00:23:50.925
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1492748679494256
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1492748679497286 drift: 3030
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1492748631
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1492748632 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1426740)usec at (1492751187775471) whereas (1000000) is allowed
+
+*** 2017-04-21 01:05:40.813
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1604625)usec at (1492751189380096) whereas (1000000) is allowed
+
+*** 2017-04-21 01:08:30.185
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (3419533)usec at (1492751358516579) whereas (1000000) is allowed
+
+*** 2017-04-21 01:08:31.026
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1492751310
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1492751312 drift: 2
+
+*** 2017-04-21 01:08:54.656
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2753785)usec at (1492751383226034) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1492751797242875
+
+*** 2017-04-21 01:15:47.769
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1492751797245898 drift: 3023
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1492751748
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1492751749 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1920429)usec at (1492752812983475) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1492753826154297
+
+*** 2017-04-21 01:49:35.789
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1492753826156338 drift: 2041
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1492753776
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1492753777 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1327570)usec at (1492793488769677) whereas (1000000) is allowed
+
+*** 2017-04-21 12:52:27.859
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (3697807)usec at (1492793598052073) whereas (1000000) is allowed
+
+*** 2017-04-21 12:52:28.845
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1492793548
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1492793549 drift: 1
+
+*** 2017-04-21 12:52:41.785
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1863219)usec at (1492793612152292) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1492796229009779
+
+*** 2017-04-21 13:36:17.699
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1492796229012689 drift: 2910
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1492796178
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1492796179 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2307382)usec at (1492824396897218) whereas (1000000) is allowed
+
+*** 2017-04-21 21:26:39.901
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2867827)usec at (1492824450974365) whereas (1000000) is allowed
+
+*** 2017-04-21 21:26:40.802
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1492824400
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1492824401 drift: 1
+
+*** 2017-04-21 21:27:04.725
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1792835)usec at (1492824476038043) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1492825980
+
+*** 2017-04-21 21:53:01.960
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1492825981 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1492827911798226
+
+*** 2017-04-21 22:24:19.610
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1492827911801253 drift: 3027
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1492827860
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1492827861 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2995617)usec at (1492828294596808) whereas (1000000) is allowed
+
+*** 2017-04-21 22:31:58.194
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (3990008)usec at (1492828370238784) whereas (1000000) is allowed
+
+*** 2017-04-21 22:32:22.326
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2041688)usec at (1492828394516884) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1492829414832804
+
+*** 2017-04-21 22:49:21.754
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1492829414834834 drift: 2030
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1492829361
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1492829362 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1116469)usec at (1492846594994667) whereas (1000000) is allowed
+
+*** 2017-04-22 03:36:47.741
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (3481938)usec at (1492846660675812) whereas (1000000) is allowed
+
+*** 2017-04-22 03:37:03.452
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1893278)usec at (1492846676532909) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1492849569697631
+
+*** 2017-04-22 04:25:15.702
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1492849569700663 drift: 3032
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1492849515
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1492849516 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2432099)usec at (1492854097981673) whereas (1000000) is allowed
+
+*** 2017-04-22 05:40:44.986
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1492854044
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1492854045 drift: 1
+
+*** 2017-04-22 05:42:20.736
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1891235)usec at (1492854194734123) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1492856272583402
+
+*** 2017-04-22 06:16:57.715
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1492856272585424 drift: 2022
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1492856218
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1492856219 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1120850)usec at (1492905102054518) whereas (1000000) is allowed
+
+*** 2017-04-22 19:50:48.226
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1041394)usec at (1492905103095912) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1492905048
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1492905049 drift: 1
+
+*** 2017-04-22 19:51:45.538
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1162207)usec at (1492905160355029) whereas (1000000) is allowed
+
+*** 2017-04-22 19:51:55.579
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1843337)usec at (1492905170449338) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1492908279406860
+
+*** 2017-04-22 20:43:43.569
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1492908279409899 drift: 3039
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1492908223
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1492908224 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2718080)usec at (1492981912200549) whereas (1000000) is allowed
+
+*** 2017-04-23 17:13:06.838
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (4588168)usec at (1492982042403120) whereas (1000000) is allowed
+
+*** 2017-04-23 17:13:07.624
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1492981987
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1492981988 drift: 1
+
+*** 2017-04-23 17:13:34.897
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (3410767)usec at (1492982070737712) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1130166)usec at (1492983404494445) whereas (1000000) is allowed
+
+*** 2017-04-23 17:36:43.222
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1145202)usec at (1492983458888839) whereas (1000000) is allowed
+
+*** 2017-04-23 17:36:52.769
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1115979)usec at (1492983468608989) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1492984955907961
+
+*** 2017-04-23 18:01:39.170
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1492984955909982 drift: 2021
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1492984899
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1492984900 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1583438)usec at (1492998704540982) whereas (1000000) is allowed
+
+*** 2017-04-23 21:50:48.945
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1141160)usec at (1492998705682142) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1492998648
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1492998649 drift: 1
+
+*** 2017-04-23 21:52:03.095
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1230963)usec at (1492998779597137) whereas (1000000) is allowed
+
+*** 2017-04-23 21:52:04.048
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1492998723
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1492998724 drift: 1
+
+*** 2017-04-23 21:52:26.099
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1812201)usec at (1492998802838939) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2273244)usec at (1492999910833169) whereas (1000000) is allowed
+
+*** 2017-04-23 22:12:47.115
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2178481)usec at (1493000022277302) whereas (1000000) is allowed
+
+*** 2017-04-23 22:12:47.331
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1793642)usec at (1493000024070944) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1492999967
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1492999968 drift: 1
+
+*** 2017-04-23 22:12:56.798
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1908686)usec at (1493000033537593) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2894237)usec at (1493012690633750) whereas (1000000) is allowed
+
+*** 2017-04-24 01:43:54.915
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1493012634
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1493012635 drift: 1
+
+*** 2017-04-24 01:44:18.306
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1688499)usec at (1493012715045979) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1493016595399920
+
+*** 2017-04-24 02:48:57.794
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1493016595401655 drift: 1735
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1493016537
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1493016538 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1497169)usec at (1493040719738944) whereas (1000000) is allowed
+
+*** 2017-04-24 09:33:02.303
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (3798099)usec at (1493040839750461) whereas (1000000) is allowed
+
+*** 2017-04-24 09:33:27.161
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1819762)usec at (1493040864767918) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1172172)usec at (1493042526896344) whereas (1000000) is allowed
+
+*** 2017-04-24 10:03:51.081
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2432218)usec at (1493042688444118) whereas (1000000) is allowed
+
+*** 2017-04-24 10:03:51.868
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1493042631
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1493042632 drift: 1
+
+*** 2017-04-24 10:04:14.310
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1093255)usec at (1493042711916709) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1027129)usec at (1493043417397162) whereas (1000000) is allowed
+
+*** 2017-04-24 10:17:48.854
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (3708554)usec at (1493043526455305) whereas (1000000) is allowed
+
+*** 2017-04-24 10:20:58.523
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1233862)usec at (1493043716126455) whereas (1000000) is allowed
+
+*** 2017-04-24 10:20:59.703
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1106941)usec at (1493043717307642) whereas (1000000) is allowed
+
+*** 2017-04-24 10:22:49.817
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (4568979)usec at (1493043827273397) whereas (1000000) is allowed
+
+*** 2017-04-24 10:22:50.676
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1493043770
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1493043771 drift: 1
+
+*** 2017-04-24 10:23:13.878
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1683086)usec at (1493043851484844) whereas (1000000) is allowed
+
+*** 2017-04-24 10:25:37.495
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1493043995986974
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1493043995990024 drift: 3050
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1493043938
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1493043939 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2653454)usec at (1493081820789065) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1316105)usec at (1493081892019977) whereas (1000000) is allowed
+
+*** 2017-04-24 20:57:36.150
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2756099)usec at (1493081914485756) whereas (1000000) is allowed
+
+*** 2017-04-24 20:58:02.374
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1743299)usec at (1493081940866353) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1411756)usec at (1493083673234422) whereas (1000000) is allowed
+
+*** 2017-04-24 21:26:56.662
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1916436)usec at (1493083675150858) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1493083616
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1493083617 drift: 1
+
+*** 2017-04-24 21:27:00.209
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1693842)usec at (1493083678701848) whereas (1000000) is allowed
+
+*** 2017-04-24 21:33:39.038
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1493084078410728
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1493084078413756 drift: 3028
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1003164)usec at (1493160428073369) whereas (1000000) is allowed
+
+*** 2017-04-25 18:48:08.288
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1305002)usec at (1493160547659989) whereas (1000000) is allowed
+
+*** 2017-04-25 18:48:10.230
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1773483)usec at (1493160549603330) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1493163704182241
+
+*** 2017-04-25 19:40:43.990
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1493163704185191 drift: 2950
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1493163644
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1493163645 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1115953)usec at (1493237829312338) whereas (1000000) is allowed
+
+*** 2017-04-26 16:16:10.913
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1780385)usec at (1493237831092723) whereas (1000000) is allowed
+
+*** 2017-04-26 16:17:08.311
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1879784)usec at (1493237888330708) whereas (1000000) is allowed
+
+*** 2017-04-26 16:17:34.678
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1684650)usec at (1493237914872583) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1493240990855130
+
+*** 2017-04-26 17:08:49.776
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1493240990858170 drift: 3040
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1493240930
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1493240931 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1359408)usec at (1493497053774712) whereas (1000000) is allowed
+
+*** 2017-04-29 16:18:28.859
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1069994)usec at (1493497169582349) whereas (1000000) is allowed
+
+*** 2017-04-29 16:18:29.585
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1493497109
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1493497110 drift: 1
+
+*** 2017-04-29 16:18:41.050
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1763610)usec at (1493497182132149) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1493499273612370
+
+*** 2017-04-29 16:53:31.716
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1493499273614392 drift: 2022
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1010921)usec at (1493513848999915) whereas (1000000) is allowed
+
+*** 2017-04-29 20:56:28.104
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1493513788
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1493513789 drift: 1
+
+*** 2017-04-29 20:57:51.020
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (3027506)usec at (1493513932693385) whereas (1000000) is allowed
+
+*** 2017-04-29 20:57:51.870
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1493513871
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1493513872 drift: 1
+
+*** 2017-04-29 20:58:17.507
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1638184)usec at (1493513959405539) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1493516410246151
+
+*** 2017-04-29 21:39:07.507
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1493516410248091 drift: 1940
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1049339)usec at (1493518051619109) whereas (1000000) is allowed
+
+*** 2017-04-29 22:08:31.437
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (5647399)usec at (1493518173981402) whereas (1000000) is allowed
+
+*** 2017-04-29 22:08:47.248
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1784760)usec at (1493518189989711) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1493519442986878
+
+*** 2017-04-29 22:29:39.442
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1493519442989874 drift: 2996
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1493519380
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1493519381 drift: 1
+
+*** 2017-04-29 22:32:40.670
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1770810)usec at (1493519624217578) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1493521028749822
+
+*** 2017-04-29 22:56:04.427
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1493521028752766 drift: 2944
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1493520964
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1493520965 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1748072)usec at (1493616535070908) whereas (1000000) is allowed
+
+*** 2017-05-01 01:27:56.919
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (6174008)usec at (1493616541244916) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1493616476
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1493616477 drift: 1
+
+*** 2017-05-01 01:28:15.416
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1908327)usec at (1493616559741933) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1493617809647811
+
+*** 2017-05-01 01:49:04.523
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1493617809649828 drift: 2017
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1493617744
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1493617745 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1021269)usec at (1493729269976638) whereas (1000000) is allowed
+
+*** 2017-05-02 08:48:12.473
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1827133)usec at (1493729357599708) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1601108)usec at (1493730470078348) whereas (1000000) is allowed
+
+*** 2017-05-02 09:06:46.165
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1211760)usec at (1493730471290108) whereas (1000000) is allowed
+
+*** 2017-05-02 09:09:58.095
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (6509517)usec at (1493730663045960) whereas (1000000) is allowed
+
+*** 2017-05-02 09:09:58.978
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1493730598
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1493730599 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1069834)usec at (1493747567210867) whereas (1000000) is allowed
+
+*** 2017-05-02 13:53:15.733
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (5500828)usec at (1493747660608856) whereas (1000000) is allowed
+
+*** 2017-05-02 13:53:35.067
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1633982)usec at (1493747680194461) whereas (1000000) is allowed
+
+*** 2017-05-02 13:56:35.164
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1493747861090830
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1493747861093860 drift: 3030
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1493747795
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1493747796 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2832976)usec at (1493768297160504) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1493770152
+
+*** 2017-05-02 20:09:13.994
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1493770153 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1567486)usec at (1493803569325034) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1629337)usec at (1493883782899564) whereas (1000000) is allowed
+
+*** 2017-05-04 03:41:57.973
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1493883717
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1493883718 drift: 1
+
+*** 2017-05-04 03:43:30.833
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2099715)usec at (1493883876726012) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2747643)usec at (1493884527076736) whereas (1000000) is allowed
+
+*** 2017-05-04 03:54:41.025
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1491803)usec at (1493884546951160) whereas (1000000) is allowed
+
+*** 2017-05-04 04:00:29.534
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1493884896212519
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1493884896220954 drift: 8435
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1493884829
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1493884830 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2538537)usec at (1493896276904251) whereas (1000000) is allowed
+
+*** 2017-05-04 07:10:14.427
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (3593015)usec at (1493896280896111) whereas (1000000) is allowed
+
+*** 2017-05-04 07:10:44.055
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1845959)usec at (1493896310737531) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1493896840035305
+
+*** 2017-05-04 07:19:32.600
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1493896840039971 drift: 4666
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1493896773
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1493896774 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2167940)usec at (1493942793283579) whereas (1000000) is allowed
+
+*** 2017-05-04 20:05:26.988
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1128379)usec at (1493942794411958) whereas (1000000) is allowed
+
+*** 2017-05-04 20:05:30.649
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1094818)usec at (1493942798084686) whereas (1000000) is allowed
+
+*** 2017-05-04 20:05:45.787
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1825839)usec at (1493942813226556) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1493944884856789
+
+*** 2017-05-04 20:40:16.702
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1493944884859820 drift: 3031
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1205935)usec at (1493968087139053) whereas (1000000) is allowed
+
+*** 2017-05-05 03:06:59.986
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1493968019
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1493968020 drift: 1
+
+*** 2017-05-05 03:10:10.355
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (6908594)usec at (1493968278374071) whereas (1000000) is allowed
+
+*** 2017-05-05 03:10:35.336
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (25119625)usec at (1493968303493696) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1493968235
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1493968236 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1493970625658809
+
+*** 2017-05-05 03:49:16.758
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1493970625661838 drift: 3029
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1493970557
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1493970558 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2829271)usec at (1494009329014476) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (8016358)usec at (1494018497780964) whereas (1000000) is allowed
+
+*** 2017-05-05 17:07:10.547
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1314040)usec at (1494018499446073) whereas (1000000) is allowed
+
+*** 2017-05-05 17:08:44.844
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (3405199)usec at (1494018593617514) whereas (1000000) is allowed
+
+*** 2017-05-05 17:08:45.748
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1494018525
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1494018526 drift: 1
+
+*** 2017-05-05 17:08:59.303
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1581674)usec at (1494018608207567) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1665305)usec at (1494020071060165) whereas (1000000) is allowed
+
+*** 2017-05-05 17:34:13.585
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1494020123219698
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1494020123222739 drift: 3041
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1494020054
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1494020055 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1082287)usec at (1494022097702284) whereas (1000000) is allowed
+
+*** 2017-05-05 18:10:20.691
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2000352)usec at (1494022290326010) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1494023112925823
+
+*** 2017-05-05 18:24:02.579
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1494023112927871 drift: 2048
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1494023043
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1494023044 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1506762)usec at (1494064996265606) whereas (1000000) is allowed
+
+*** 2017-05-06 06:02:07.041
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1123106)usec at (1494064997388712) whereas (1000000) is allowed
+
+*** 2017-05-06 06:05:00.378
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2769737)usec at (1494065170569788) whereas (1000000) is allowed
+
+*** 2017-05-06 06:05:11.095
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1703780)usec at (1494065181444158) whereas (1000000) is allowed
+
+*** 2017-05-06 06:05:13.619
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2523504)usec at (1494065183967662) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1494065113
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1494065114 drift: 1
+
+*** 2017-05-06 06:07:26.563
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1494065317623441
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1494065317626414 drift: 2973
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1494065247
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1494065248 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2012629)usec at (1494068900984579) whereas (1000000) is allowed
+
+*** 2017-05-06 07:08:20.147
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1581028)usec at (1494068971207131) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1494069577199142
+
+*** 2017-05-06 07:18:25.433
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1494069577202185 drift: 3043
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1494069506
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1494069507 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1507724)usec at (1494072502044991) whereas (1000000) is allowed
+
+*** 2017-05-06 08:08:08.428
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1266455)usec at (1494072560057294) whereas (1000000) is allowed
+
+*** 2017-05-06 08:08:30.539
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1950698)usec at (1494072582304695) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1494073080124424
+
+*** 2017-05-06 08:16:47.633
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1494073080126444 drift: 2020
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1494073008
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1494073009 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1903642)usec at (1494088616664805) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1252568)usec at (1494167303511631) whereas (1000000) is allowed
+
+*** 2017-05-07 10:27:12.085
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1020035)usec at (1494167304576392) whereas (1000000) is allowed
+
+*** 2017-05-07 10:28:53.521
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1252251)usec at (1494167406013543) whereas (1000000) is allowed
+
+*** 2017-05-07 10:28:55.410
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1452090)usec at (1494167407903569) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1494169669570701
+
+*** 2017-05-07 11:06:36.433
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1494169669573791 drift: 3090
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1560053)usec at (1494274112374170) whereas (1000000) is allowed
+
+*** 2017-05-08 16:07:20.256
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1020008)usec at (1494274113394178) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1494274040
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1494274041 drift: 1
+
+*** 2017-05-08 16:08:46.840
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1736515)usec at (1494274199980093) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1494274926301619
+
+*** 2017-05-08 16:20:52.494
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1494274926303390 drift: 1771
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1066739)usec at (1494323915490491) whereas (1000000) is allowed
+
+*** 2017-05-09 05:57:22.851
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1022666)usec at (1494323916656079) whereas (1000000) is allowed
+
+*** 2017-05-09 05:59:43.489
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (3785984)usec at (1494324057161245) whereas (1000000) is allowed
+
+*** 2017-05-09 05:59:58.661
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1753042)usec at (1494324072470375) whereas (1000000) is allowed
+
+*** 2017-05-09 06:00:03.099
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (4437946)usec at (1494324076908321) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1494324003
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1494324004 drift: 1
+
+*** 2017-05-09 06:01:19.525
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1494324154002088
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1494324154005116 drift: 3028
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1494324079
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1494324080 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1439640)usec at (1494329913051243) whereas (1000000) is allowed
+
+*** 2017-05-09 07:37:19.736
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1104351)usec at (1494329914211913) whereas (1000000) is allowed
+
+*** 2017-05-09 07:38:57.363
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1705733)usec at (1494330011354654) whereas (1000000) is allowed
+
+*** 2017-05-09 07:38:58.243
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1348655)usec at (1494330012703309) whereas (1000000) is allowed
+
+*** 2017-05-09 07:39:04.947
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1568255)usec at (1494330019420550) whereas (1000000) is allowed
+
+*** 2017-05-09 07:43:42.403
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1494330297540173
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1494330297541867 drift: 1694
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1494330222
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1494330223 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1021040)usec at (1494330813017228) whereas (1000000) is allowed
+
+*** 2017-05-09 07:53:34.543
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2883077)usec at (1494330889504401) whereas (1000000) is allowed
+
+*** 2017-05-09 07:53:46.505
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1664545)usec at (1494330901642922) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1494331664179665
+
+*** 2017-05-09 08:06:28.369
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1494331664182737 drift: 3072
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1578475)usec at (1494340716095551) whereas (1000000) is allowed
+
+*** 2017-05-09 10:39:41.076
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1067577)usec at (1494340856888126) whereas (1000000) is allowed
+
+*** 2017-05-09 10:39:43.369
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1693817)usec at (1494340859181992) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1494342457865945
+
+*** 2017-05-09 11:06:21.424
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1494342457868854 drift: 2909
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1228129)usec at (1494362018202931) whereas (1000000) is allowed
+
+*** 2017-05-09 16:32:22.843
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1082729)usec at (1494362019285660) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2898965)usec at (1494362199933512) whereas (1000000) is allowed
+
+*** 2017-05-09 16:35:53.318
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2084052)usec at (1494362229762668) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1494363167938852
+
+*** 2017-05-09 16:51:30.831
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1494363167941793 drift: 2941
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1545093)usec at (1494445862375124) whereas (1000000) is allowed
+
+*** 2017-05-10 15:49:46.423
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1151915)usec at (1494445863527039) whereas (1000000) is allowed
+
+*** 2017-05-10 15:49:54.948
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1549259)usec at (1494445872054871) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1494448871460383
+
+*** 2017-05-10 16:39:53.543
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1494448871463403 drift: 3020
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1494448794
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1494448795 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1172345)usec at (1494456521904587) whereas (1000000) is allowed
+
+*** 2017-05-10 18:47:25.196
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1133215)usec at (1494456523114292) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (3509336)usec at (1494456668212750) whereas (1000000) is allowed
+
+*** 2017-05-10 18:49:58.665
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1759874)usec at (1494456676585267) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1203481)usec at (1494460547271596) whereas (1000000) is allowed
+
+*** 2017-05-10 19:54:30.970
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1362322)usec at (1494460548888439) whereas (1000000) is allowed
+
+*** 2017-05-10 19:54:32.223
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1170639)usec at (1494460550143175) whereas (1000000) is allowed
+
+*** 2017-05-10 20:01:21.539
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1494460960377284
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1494460960379403 drift: 2119
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1494460882
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1494460883 drift: 1
+
+*** 2017-05-10 20:02:28.922
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1175518)usec at (1494461027756691) whereas (1000000) is allowed
+
+*** 2017-05-10 20:02:30.051
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1088550)usec at (1494461028881594) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2084460)usec at (1494461234296427) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time stalled at 1494463482457376
+
+*** 2017-05-10 20:43:22.660
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Stall, backward drift ended at 1494463482460300 drift: 2924
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1494463402
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1494463403 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1033820)usec at (1494567216652215) whereas (1000000) is allowed
+
+*** 2017-05-12 01:32:18.074
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1222675)usec at (1494567217874890) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1128727)usec at (1494620632167352) whereas (1000000) is allowed
+
+*** 2017-05-12 16:25:55.068
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2586632)usec at (1494620834646644) whereas (1000000) is allowed
+
+*** 2017-05-12 16:25:55.847
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1494620755
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1494620756 drift: 1
+
+*** 2017-05-12 16:26:19.715
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (3334887)usec at (1494620859515984) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1071917)usec at (1494622433792410) whereas (1000000) is allowed
+
+*** 2017-05-12 16:52:34.995
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1494622354
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1494622355 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1854564)usec at (1494624905781411) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2990696)usec at (1494637881074247) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1474369)usec at (1494640738712645) whereas (1000000) is allowed
+
+*** 2017-05-12 21:57:39.925
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1494640659
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2042306)usec at (1494640741760106) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1494640661 drift: 2
+
+*** 2017-05-12 21:59:35.778
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1758027)usec at (1494640855575582) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1462095)usec at (1494649135299914) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (136569294)usec at (1494649606990987) whereas (1000000) is allowed
+
+*** 2017-05-13 00:28:29.685
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (182493751)usec at (1494649789484738) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1494649709
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (12375305)usec at (1494649801860043) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1494649722 drift: 13
+
+*** 2017-05-13 00:28:43.822
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1762514)usec at (1494649803622557) whereas (1000000) is allowed
+
+*** 2017-05-13 00:28:59.822
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (15999650)usec at (1494649819622207) whereas (1000000) is allowed
+
+*** 2017-05-13 00:29:32.485
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1094056)usec at (1494649852284549) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2894837)usec at (1494650424011950) whereas (1000000) is allowed
+
+*** 2017-05-13 00:39:22.721
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1958151)usec at (1494650442519486) whereas (1000000) is allowed
+
+*** 2017-05-13 00:39:24.178
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1116214)usec at (1494650443977750) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1840315)usec at (1494651288101058) whereas (1000000) is allowed
+
+*** 2017-05-13 01:04:11.639
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (3416676)usec at (1494651931285273) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1494670438
+
+*** 2017-05-13 06:13:59.855
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1494670439 drift: 1
+
+*** 2017-05-13 06:17:39.283
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1119400)usec at (1494670739082415) whereas (1000000) is allowed
+
+*** 2017-05-13 06:19:16.039
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1759990)usec at (1494670835668554) whereas (1000000) is allowed
+
+*** 2017-05-13 06:19:31.972
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2175122)usec at (1494670851773067) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1058575)usec at (1494671935527588) whereas (1000000) is allowed
+
+*** 2017-05-13 06:39:38.850
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (4225993)usec at (1494672058495847) whereas (1000000) is allowed
+
+*** 2017-05-13 06:39:39.766
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1494671979
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1494671980 drift: 1
+
+*** 2017-05-13 06:39:42.868
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1080179)usec at (1494672062668421) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1830445)usec at (1494742324476380) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2607416)usec at (1494752143011594) whereas (1000000) is allowed
+
+*** 2017-05-14 04:54:31.323
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1495733)usec at (1494752151123398) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1107750)usec at (1494758344285902) whereas (1000000) is allowed
+
+*** 2017-05-14 06:38:52.123
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (3560237)usec at (1494758411732549) whereas (1000000) is allowed
+
+*** 2017-05-14 06:38:52.980
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1494758332
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1494758333 drift: 1
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1037860)usec at (1494759546163811) whereas (1000000) is allowed
+
+*** 2017-05-14 06:58:58.657
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1759513)usec at (1494759618289523) whereas (1000000) is allowed
+
+*** 2017-05-14 06:58:59.592
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1494759539
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1494759540 drift: 1
+
+*** 2017-05-14 06:59:14.947
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1745904)usec at (1494759634747988) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1076040)usec at (1494771844624249) whereas (1000000) is allowed
+
+*** 2017-05-14 10:23:51.599
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1185985)usec at (1494771911176174) whereas (1000000) is allowed
+
+*** 2017-05-14 10:24:17.480
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1022050)usec at (1494771937280543) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1616533)usec at (1494812946699643) whereas (1000000) is allowed
+
+*** 2017-05-14 21:49:08.525
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1879228)usec at (1494813027942549) whereas (1000000) is allowed
+
+*** 2017-05-14 21:49:09.223
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1081608)usec at (1494813029024157) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1494812949
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1494812950 drift: 1
+
+*** 2017-05-14 21:49:20.886
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1878309)usec at (1494813040687102) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2139903)usec at (1494823451440478) whereas (1000000) is allowed
+
+*** 2017-05-15 00:45:28.232
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2664195)usec at (1494823607869133) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1162629)usec at (1494824811117831) whereas (1000000) is allowed
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2042441)usec at (1494839351431578) whereas (1000000) is allowed
+
+*** 2017-05-15 05:07:52.937
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1306117)usec at (1494839352737695) whereas (1000000) is allowed
+
+*** 2017-05-15 05:10:02.227
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (2654929)usec at (1494839481827393) whereas (1000000) is allowed
+
+*** 2017-05-15 05:10:18.133
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1896463)usec at (1494839497934069) whereas (1000000) is allowed
